@@ -30,6 +30,6 @@ public class tax {
         }
     }
     public static void showTheTax(){
-        System.out.println("ваш налог: " + Tax);
+        System.out.println("налоговая ставка: " + Tax);
     }
 }
