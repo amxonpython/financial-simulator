@@ -41,6 +41,6 @@ public class actions {
         Data.balance = Data.balance.add(contribution.depositIncomeS);
     }
     public static void showProfit(){
-        System.out.println("общая прибыль: " + Data.profit);
+        System.out.println("прибыль: " + Data.profit);
     }
 }
