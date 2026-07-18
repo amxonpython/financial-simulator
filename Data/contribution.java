@@ -9,7 +9,6 @@ public class contribution {
 
     //public static BigDecimal depositIncomeS1 = new BigDecimal(String.valueOf(depositIncomeS.subtract(Data.balance)));
 
-
     public static void depositIncome(){
        depositIncomeS = (Data.balance.multiply(annualRate)).subtract(Data.balance);
        BigDecimal a = new BigDecimal (12);
@@ -19,7 +18,6 @@ public class contribution {
                 RoundingMode.HALF_UP
         );
     }
-
     public static void showDepositIncome(){
         System.out.println("доход по вкладу (ставка по умолчанию: 9% годовых): " + depositIncomeS);
     }
